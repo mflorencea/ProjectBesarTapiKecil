@@ -1,0 +1,26 @@
+<div>
+  <form>
+    <input
+      type="text"
+      id="message"
+      name="message"
+      placeholder="i have to..."
+      [(ngModel)]="message"
+    />
+    <input type="submit" value="add" (click)="addItem()" />
+  </form>
+</div>
+
+<div>
+  <h5>
+    ({{ toDoList.length }}) Things that I have to do <br>
+    What I Have To Do :  <br> </h5>
+  <div *ngFor="let item of toDoList; let i = index">
+    <span class="close" (click)="remove(i)">(x)</span>
+    <span class="message">{{ item.message }}</span>
+  </div>
+</div>
+
+<div>
+  <h6>58170473_MFA</h6>
+</div>

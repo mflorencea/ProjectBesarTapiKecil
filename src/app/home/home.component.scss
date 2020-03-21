@@ -1,0 +1,23 @@
+@import "../../styles.scss";
+
+input[type=text] {
+  border: 1px solid lightsteelblue;
+  border-radius: 5px;
+  font-size: $fontSize;
+}
+
+input[type=submit] {
+  background-color: $bggColor;
+  color: $fontColor;
+  font-size: $fontSize;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 2px 10px;
+  text-decoration: none;
+  border: none;
+}
+
+.close {
+  padding: 20px;
+}
+

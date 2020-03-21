@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+$bgColor: black;
+$fontColor: lightcyan;
+$fontSize: 1.2em;
+$bggColor: lightsteelblue;
+
+body {
+  background-color: $bgColor;
+  color: $fontColor;
+  font-size: $fontSize;
+  font-family: 'Caveat', cursive;
+}
